@@ -6,3 +6,165 @@ padding: 0;
 box-sizing:border-box;
 
 }
+.container {
+
+    display:block;
+   margin:auto
+}
+
+.KeyboardOuterBG {
+background-color:#2b2b2b;
+width:1500px;
+height:500px;
+margin:auto;
+margin-top:70px; 
+padding-top:25px;
+}
+.KeyboardBG {
+
+    background-color:rgb(27, 27, 27);
+    width:1450px;
+    height:400px;
+    margin:auto;
+    
+
+}
+.ButtonTop {
+   
+    display:flex;
+    
+
+}
+.ActButtons {
+
+    padding:8px;
+    padding-left:9px;    color:white;
+    margin-top:10px;
+    
+}
+.Circle {
+width:20px;
+    height:20px;
+    border-radius:25px;
+    margin-left:40px;
+    background-color:green;
+    border:none;
+    opacity:0.2;
+}
+.CircleUnlit {
+    width:20px;
+        height:20px;
+        border-radius:25px;
+        margin-left:40px;
+        background-color:white;
+        border:none;
+        opacity:0.2;
+    }
+.CalcButton {
+    width:90px;
+    height:30px;
+background-color:black;
+color:white;
+font-size:10px;
+border:none;
+margin:auto;
+box-shadow:1px 1px black;
+}
+.CalcButtonSpace {
+    width:200px;
+    height:30px;
+background-color:black;
+color:black;
+font-size:10px;
+border:none;
+margin:auto;
+box-shadow:1px 1px black;
+}
+.CalcButton1 {
+    width:75px;
+    height:30px;
+background-color:black;
+color:white;
+font-size:10px;
+border:none;
+margin:auto;
+box-shadow:1px 1px black;
+}
+.CalcButtonPL {
+    width:30px;
+    height:30px;
+background-color:black;
+color:white;
+font-size:10px;
+border:none;
+margin:auto;
+box-shadow:1px 1px black;
+position:relative;
+left:90px;
+}
+.CalcButton1B {
+    width:70px;
+    height:30px;
+background-color:black;
+color:white;
+font-size:10px;
+border:none;
+margin:auto;
+box-shadow:1px 1px black;
+}
+
+.CalcButton:hover {
+
+    background-color:firebrick;
+    cursor:pointer;
+}
+.CalcButton1B:hover {
+    background-color:firebrick;
+    cursor:pointer;
+}
+.CalcButton1:hover {
+
+    background-color:purple;
+    cursor:pointer;
+}
+.CalcButtonSpace:hover {
+    background-color:white;
+    color:black;
+}
+.CalcButtonNum1:hover {
+    background-color:blueviolet;
+    cursor:pointer;
+}
+.CalcButtonNum:hover {
+    background-color:orange;
+    cursor:pointer;
+}
+.CalcButtonNum {
+    width:70px;
+    height:30px;
+background-color:black;
+color:white;
+font-size:10px;
+border:none;
+margin:auto;
+box-shadow:1px 1px black;
+position:relative;
+left:80px;
+}
+.CalcButtonNum1 {
+    width:70px;
+    height:30px;
+background-color:black;
+color:white;
+font-size:10px;
+border:none;
+margin:auto;
+box-shadow:1px 1px black;
+position:relative;
+left:192px;
+}
+.This {
+    display:flex;
+    justify-content:center;
+
+}
